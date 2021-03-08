@@ -1,0 +1,293 @@
+body {
+    background: white;
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:100vh;
+}
+
+.container1 {
+    background: black;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    background: black;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container3 {
+    background: black;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box1 {
+    background-color: #0a3d62;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-bottom: 5px;
+}
+
+.box2 {
+    background-color: #ff793f;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+.box3 {
+    background-color: #40407a;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.box4 {
+    background-color: #ff5252;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    flex-grow: 1;
+}
+
+.boxItem56 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxItem78 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.element1 {
+    order: 0;
+    background: #e55039;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element2 {
+    order: 1;
+    background: #e55039;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 4;
+}
+
+.element3 {
+    order: 2;
+    background: #e55039;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element4 {
+    background: #f6b93b;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element5 {
+    order: 0;
+    background: #2980b9;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element6 {
+    order: 1;
+    background: #2980b9;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element7 {
+    order: 2;
+    background: #2980b9;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element8 {
+    order: 3;
+    background: #2980b9;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element9 {
+    order: 4;
+    background: #74b9ff;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.element10 {
+    background: #ffda79;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.element11 {
+    background: #ffda79;
+    padding: 10px;
+    border: 0px;
+    margin: 10px;
+}
+
+.element12 {
+    background: #ffb142;
+    padding: 10px;
+    border: 20px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+@media (min-width: 1281px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .container2 {
+        background: yellow;
+        border: 5px solid yellow;
+        flex-direction: column;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .container2 {
+        background: yellow;
+        border: 5px solid yellow;
+        flex-direction: column;
+        
+    }
+
+    .box1 {
+        flex-direction: column;
+        
+    }  
+
+    .box3 {
+        flex-direction: column;
+        background-color: rgb(0, 87, 87);
+       
+    }
+
+    .box4 {
+        background-color: #fc7452;
+    }
+
+    .boxItem56 {
+        flex-direction: column;
+        
+    }
+    
+    .boxItem78 {
+        flex-direction: column;
+        
+    }
+    
+    .element5 {
+        background: #29afb9;
+        
+    }
+    
+    .element6 {
+        background: #29afb9;
+        
+    }
+    
+    .element7 {
+        background: #29afb9;
+       
+    }
+    
+    .element8 {
+        background: #29afb9;
+        
+    }
+    
+    .element9 {
+        background: #75e9f1;
+        
+    }
+
+    .element10 {
+        background: #f7b156;
+        
+    }
+
+    .element11 {
+        background: #f7b156;
+      
+    }
+
+    .element12 {
+        background: #ffc26c;
+    }
+} 
